@@ -1,0 +1,13 @@
+body{
+    background-image: url(wp4946099.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.center{
+    text-align: center;
+}
+
+p,li,h2,h3{
+    font-size: large;
+}

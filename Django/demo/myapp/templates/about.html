@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block title %} Welcome {% endblock %}
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" text="text/css" href="{% static 'style.css' %}">
+</head>
+
+<body>
+    <div class="container">
+
+        <h2>About Me</h2>
+        <p>My Anime Figurine Shop offers anime figurines different versions of themselves.</p>
+        <p> Address: 36 Pampanga Street, Bago Bantay, Quezon City, Philippines</p>
+        <p> Contact: +639123456789</p>
+
+    </div>
+</body>
+
+</html>    
+{% endblock %}

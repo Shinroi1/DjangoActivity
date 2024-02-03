@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %} Home Page {% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'home.css' %}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+<div class="center">
+<h1>Anime Figurine Shop</h1>
+</div>
+<br>
+<h2>Choose from 5 anime characters with their different versions of themselves!</h2>
+<p>Featuring:</p>
+<h3>1. Dragon Ball Z Rivals:</h3>
+<ul>
+    <li>Son Goku Forms</li>
+    <li>Prince Vegeta Forms</li>
+    <li>Their kid forms</li>
+</ul>
+<h3>2. Naruto Shippuden Rivals</h3>
+<ul>
+    <li>Naruto Uzumaki Forms</li>
+    <li>Sasuke Uchiha Forms</li>
+    <li>Their kid Forms</li>
+</ul>
+<h3>3. Monkey D. Luffy</h3>
+
+<br>
+
+<h2>Why order from my shop?</h2>
+<ol>
+    <li>I have a figurines that is Regular and limited.</li>
+    <li>You can also chooos the shipping method to be Standard or Express.</li>
+</ol>
+
+<h3>Still interested? Click "Order" now!
+</h3>
+</body>
+</html>
+{% endblock %}
